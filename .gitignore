@@ -1,0 +1,4 @@
+builds/*
+/.sentry-native
+.vscode
+Build and Run (Simulator).ps1
