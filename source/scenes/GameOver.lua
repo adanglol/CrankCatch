@@ -5,8 +5,7 @@ local gfx <const> = playdate.graphics
 
 class("GameOver").extends(gfx.sprite)
 
-function GameOver:init()
-    local text = "Game Over"
+function GameOver:init(text)
     local gameOverImage = gfx.image.new(gfx.getTextSize(text))
     gfx.pushContext(gameOverImage)
         gfx.drawText(text, 0, 0)
